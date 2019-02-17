@@ -3,12 +3,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		Reverser<String> strReverser = new Reverser<String>();
-		strReverser.FileToStack("/Users/tahaaziz/Downloads/reversePoem.txt");
-		strReverser.StackToFile("/Users/tahaaziz/Downloads/reversedPoem.txt");
+		strReverser.FileToStack(//put txt file path link here);
+		strReverser.StackToFile(//put txt file path link here);
 		
 		Reverser<Float> fltReverser = new Reverser<Float>();
-		fltReverser.FileToStack("/Users/tahaaziz/Downloads/reverseSpells.txt");
-		fltReverser.StackToFile("/Users/tahaaziz/Downloads/reversedSpells.txt");
+		fltReverser.FileToStack(//put txt file path link here);
+		fltReverser.StackToFile(//put txt file path link here);
 	}
 
 }
