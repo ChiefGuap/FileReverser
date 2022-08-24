@@ -1,4 +1,6 @@
 //Class Stack ---------------------------------------
+
+//This is a simple stack file for using the charaters in the file and pushing them through a push and pop type function. This is like a bluepriont class for the stack so it can later be used for different files for the code. 
 public class Stack<E>
 {
    // pointer to first node in stack
